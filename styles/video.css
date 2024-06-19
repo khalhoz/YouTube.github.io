@@ -49,6 +49,7 @@
 
 .thumbnail-row{
     margin-bottom: 12px;
+    position: relative;
 }
 
 .video-grid{
@@ -58,3 +59,19 @@
     row-gap: 40px;
 }
 
+.video-preview{
+    
+}
+
+.video-time{
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    padding: 4px;
+    background-color: black;
+    font-weight: 700;
+    color: antiquewhite;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+
+}
