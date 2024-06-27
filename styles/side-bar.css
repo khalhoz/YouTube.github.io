@@ -1,4 +1,5 @@
 .side-bar{
+    padding-top: 5px ;
     position: fixed;
     top: 55px;
     bottom: 0px;
@@ -8,7 +9,34 @@
     border-right-width: 1px;
     border-right-color: rgb(252, 233, 198);
     border-right-style: solid;
+    z-index: 3;
 
 
 
+}
+.side-bar-link{
+    background-color: rgb(255, 255, 255);
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 3px; */
+}
+.side-bar-link:hover{
+    background-color: rgb(185, 130, 42);
+    cursor: pointer;
+}
+
+.side-bar-link img {
+    height: 25px;
+    margin-bottom: 4px;
+    
+   
+}
+
+.side-bar-link div {
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    /* font-weight:  ; */
 }

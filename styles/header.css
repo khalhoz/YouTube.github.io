@@ -73,6 +73,38 @@
     border-style: solid;
     border-color: rgb(224, 224, 224);
     border-width: 1px;
+
+}
+
+.search-button, 
+.voice-search-button{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button .tool-tip,
+.voice-search-button .tool-tip{
+    position: absolute;
+    background-color: rgb(210, 211, 210);
+    /* margin-top: 80px; */
+    /* height: 25px; */
+    /* width: 50px; */
+    padding: 4px;
+    border-radius: 3px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: None;
+    white-space: nowrap;
+    font: bold;
+}
+.search-button:hover .tool-tip,
+.voice-search-button:hover .tool-tip{
+    opacity: 1;
+    
 }
 
 .search-icon{
@@ -90,7 +122,10 @@
     margin-left: 12px;
     border: none;
     background-color: rgb(252, 247, 247);
+
+    position: relative;
 }
+
 
 .voice-search-icon{
 
